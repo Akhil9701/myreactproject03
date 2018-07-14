@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  display: -webkit-box;
+  
+}
+h1{
+  color:olive;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.leftComponent{
+ border:2px solid brown;
+ width:800px;
+ height:550px; 
+ display: inline-block;
+ padding: 30px;
+ margin: 20px;
+ background-image: url("https://image.freepik.com/free-photo/white-paper-background_1154-683.jpg");
+
+}
+body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmxhurov1BHlL1amUFGDLbcswcaDGYhst3_j8Gt1uFsbo-HRZP");
+}
+.rightComponent{
+  border:3px solid brown;
+  width:250px;
+  height:548px; 
+  padding: 30px;
+  margin: 20px;
+  margin-left: -22px;
+  background-image: url("http://www.tubadzin.pl/sites/default/files/en-gb_Maxima-white_0.jpg");
+ 
+}
+img {
+  float: left;
+  
+
+}
+header nav{
+  float:right;
+}
+header.home h1{
+  float:left;
+}
+header.home nav{
+float: right;  
+margin-top:35px;
+margin-right:70px;
+}
+header.home nav a{
+  margin-right:15px;
+  font-weight:bold;
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+  font-size: 10px;
+}
+footer.nav{
+  display:flex;
+  margin-left: 15%;
+  
+}
+footer{
+  margin: 167px;
+  margin-left: -454px;
+  font-weight: bold;
+ 
+}
+footer.home nav a {
+  text-decoration: none;
+  color:darkcyan;
+}
+section {
+  margin-top: 250px;
+
+}
+h4 {
+  float: right;
+  margin-top: -182px;
+  color:darkcyan;
+}
+li {
+  list-style-type: none;
+  line-height: 2;
+  font-size: 13px;
+}
+aside.home-aside,img {
+  height: 35px;
+  margin-top: -47px;
+  margin-left: 25px;
+}
+aside.home-aside,li,img {
+  margin-left: -10px;
+}
+aside.home-aside,h3 {
+margin-right: 30px;
+color: chocolate;
+
+}
+aside.home-aside,li,p {
+margin-left: 2px;
+padding:-10px;
+color: cadetblue;
+
+}
+p{
+  font-size:11px;
+  color:green;
+}
+input {
+  color: rgb(12, 7, 2);
+}
+h2 {
+margin-left:-626px;
+color:darkolivegreen;
+}
+a{
+  margin-top: -36px;
+}

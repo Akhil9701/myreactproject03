@@ -1,0 +1,105 @@
+.App {
+    text-align: center;
+    display: -webkit-box;
+    
+  }
+  h1{
+    color:olive;
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  .leftComponent{
+   border:2px solid brown;
+   width:850px;
+   height:950px; 
+   display: inline-block;
+   padding: 30px;
+   margin: 66px;
+   background-image: url("https://image.freepik.com/free-photo/white-paper-background_1154-683.jpg");
+  
+  }
+  .boxComponent{
+    border:1px solid sandybrown;
+    height:600px;
+    width:550px;
+    display: inline-block;
+  }
+  
+  body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmxhurov1BHlL1amUFGDLbcswcaDGYhst3_j8Gt1uFsbo-HRZP");
+  }
+  img {
+    float: left;
+    
+  
+  }
+  header nav{
+    float:right;
+  }
+  
+  header.home nav{
+  float: right;  
+  margin-top:35px;
+  margin-right:70px;
+  }
+  header.home nav a{
+    margin-right:15px;
+    font-weight:bold;
+    text-decoration: none;
+  }
+  boxcomponent, h4{
+    margin-right: 320px;
+    
+  }
+  .boxComponent,nav{
+    margin-top: 30px;
+    
+  }
+  boxcomponent,button{
+    float: right;
+    margin-right: 23px;
+    
+    background-color:burlywood;
+   
+  }
+  
+  contentcomponent,p{
+    font-size:12px; 
+  }
+  
+  h2 {
+  margin-left:-626px;
+  margin-top: -10px;
+  
+  }
+  
+  
+  .input-group-addon{
+    color:#ff0000;
+     
+    }
+    .input-group{
+      margin-top: 40px;
+      margin-left: 67px;
+      margin-right: 60px;
+    }
+    button{
+      height: 38px;
+      width: 120px;
+      
+    }
+    .btn-primary {
+      margin-top: 30px;
+      margin-right: 210px;
+    }
+   .btn{
+      margin-right: 15px
+    }
+    a{
+      font-weight: bold;
+      font-size:15px;
+    }
+  
